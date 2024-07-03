@@ -1,0 +1,18 @@
+* text=auto
+*.js eol=lf
+*.json eol=lf
+*.html eol=lf
+*.css eol=lf
+# Handle line endings automatically for text files
+* text=auto
+
+# Force LF for specific files
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Force CRLF for specific files
+*.bat text eol=crlf
+*.cmd text eol=crlf
